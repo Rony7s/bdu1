@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>BDU All Students info</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/bootstrap.min.css" rel="stylesheet">  
+  <script src="js/bootstrap.bundle.min.js"></script>
+
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<!--Navbar forms and buttons start-->
+	<div class="container">
+		<nav class="navbar navbar-expand-sm navbar-secondary bg-light">
+  			<div class="container-fluid">
+				<!--this for mobile menu-->
+    			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      			<span class="menu_icon" onclick="myFunction(this)">
+					<div class="bar1"></div>
+					<div class="bar2"></div>
+					<div class="bar3"></div>
+				</span>
+			    </button>
+				<!--menu_and_search bar start-->
+    			<div class="collapse navbar-collapse" id="mynavbar">
+      				<ul class="navbar-nav me-auto">
+						<!--Link_item start here -->
+						<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li> 
+        				<li class="nav-item"><a class="nav-link" href="https://bdu.ac.bd/">BDU</a></li> 
+        				
+						<!--Dropdown_item start here -->
+        				<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">ICTE</a>
+  						<ul class="dropdown-menu">
+    						<li><a class="dropdown-item" href="icte1.html">Batch 01</a></li>
+    						<li><a class="dropdown-item" href="icte2.html">Batch 02</a></li>
+    						<li><a class="dropdown-item" href="icte3.html">Batch 03</a></li>
+							<li><a class="dropdown-item" href="icte4.html">Batch 04</a></li>
+  						</ul>
+						</li>
+						<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">IoT</a>
+							<ul class="dropdown-menu">
+							  <li><a class="dropdown-item" href="iot1.html">Batch 01</a></li>
+							  <li><a class="dropdown-item" href="iot2.html">Batch 02</a></li>
+							  <li><a class="dropdown-item" href="iot3.html">Batch 03</a></li>
+							  <li><a class="dropdown-item" href="iot4.html">Batch 04</a></li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Club</a>
+							<ul class="dropdown-menu">
+							  <li><a class="dropdown-item" href="bdupc.html">Programming Club</a></li>
+							  <li><a class="dropdown-item" href="bdudc.html">Debating Club</a></li>
+							  <li><a class="dropdown-item" href="bducc.html">Cultural Club</a></li>
+							  <li><a class="dropdown-item" href="#">Others</a></li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Organization</a>
+							<ul class="dropdown-menu">
+							  <li><a class="dropdown-item" href="#">Badhon(Blood)</a></li>
+				
+							  <li><a class="dropdown-item" href="#">Others</a></li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Society</a>
+							<ul class="dropdown-menu">
+							  <li><a class="dropdown-item" href="rajshahi.html">Rajshahi Division</a></li>
+							  <li><a class="dropdown-item" href="rangpur.html">Rangpur Division</a></li>
+							  <li><a class="dropdown-item" href="dhaka.html">Dhaka Division</a></li>
+							  <li><a class="dropdown-item" href="chittagang.html">chittagang Division</a></li>
+							  <li><a class="dropdown-item" href="khulna.html">Khulna Division</a></li>
+							  <li><a class="dropdown-item" href="mymanshing.html">Mymanshing Division</a></li>
+							  <li><a class="dropdown-item" href="#">Add Division</a></li>
+							</ul>
+						</li>
+						<li class="nav-item"><a class="nav-link" href="about.html">About</a></li> 
+        				
+      				</ul>
+    				<form class="d-flex">
+        				<input class="form-control me-2" type="text" placeholder="Search">
+        				<button class="btn btn-primary" type="button">Search</button>
+					</form>
+    			</div>
+				<!--menu_and_search bar end-->
+  			</div>
+		</nav>
+	</div>
+	<!--Navbar forms and buttons end-->
+	
+	
+	<!--container start-->
+	
+	<div class="container">
+		<div class="bg-primary text-white text-center p-1">
+  			<h1 class="p-1">Welcome to BDU family</h1>
+  			<p>BANGABANDHU SHEIKH MUJIBUR RAHMAN DIGITAL UNIVERSITY, BANGLADESH</p>
+			<img class="d-block" width="100%" src="img/slider1.jpeg" alt=""> 
+		</div>
+		<!-- this a video of BDU from Youtube -->
+		<iframe width="100%" height="300" src="https://www.youtube.com/embed/rXSWbpUVG3Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<div class="footer text-center bg-dark text-light p-3"> created by <a href="about.html"> BDU Family </a> | all rights reserved </div>	
+	</div>
+	<script>
+		function myFunction(x) {
+		  x.classList.toggle("change");
+		}
+	</script>
+</body>
+</html>
+ 
