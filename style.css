@@ -46,7 +46,16 @@ html{
     border: 2px solid#ccc000;
   }
    
-
+/* main page single_club */
+.single_club img{
+  width: 100%;
+}
+.single_club a{
+   background:#0f2a33;
+   display: block;
+   font-size: 20px;
+  
+}
 .Headtitle{
     font-size: 5rem;
     text-align: center;
