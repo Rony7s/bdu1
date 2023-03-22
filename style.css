@@ -48,7 +48,7 @@ html{
    
 /* main page single_club */
 .single_club img{
-  width: 100%;
+  width: 60%;
 }
 .single_club a{
    background:#0f2a33;
@@ -64,6 +64,13 @@ html{
 .students{
     
 }
+
+/* index club icon */
+.home_icon{}
+.home_icon img{
+   
+}
+
 /* most importent =======================================================================================================================================*/
 .single{
     border: 1px solid#ccc;
